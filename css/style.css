@@ -1,0 +1,51 @@
+/* Global styles */
+html {
+	background-color: #f1f1f1;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+.box-shadow {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Container for the main content */
+.main {
+	display: flex;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 9vh;
+
+	h1 {
+		text-align: center;
+	}
+}
+
+#game-image {
+	width: 100%;
+}
+
+#game-container {
+	margin-top: 1vh;
+}
+
+#controls-container {
+	margin-top: 1vh;
+	height: 10vh;
+}
+
+#gameCanvas {
+	display: block;
+	margin: 0 auto;
+	background-color: lightblue; /* Just for better visibility */
+}
