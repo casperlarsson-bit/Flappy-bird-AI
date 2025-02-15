@@ -24,8 +24,19 @@ function setup() {
 	environment = new Environment()
 }
 
+const bird = new Bird()
+// bird.flap()
+
 function draw() {
 	background(BACKGROUND_IMG)
 	environment.move()
 	environment.draw()
+	bird.draw()
+	bird.move()
 }
+
+document.addEventListener('keydown', function (event) {
+	if (event.key === ' ') {
+		bird.flap()
+	}
+})

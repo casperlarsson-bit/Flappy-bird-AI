@@ -4,7 +4,7 @@ class Pipe {
 		this.bottom = HEIGHT - (this.top + SPACING_VERTICAL)
 		this.x = WIDTH
 		this.speed = 5
-		this.width = 100
+		this.width = 75
 	}
 
 	draw() {
